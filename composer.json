@@ -1,0 +1,23 @@
+{
+    "name": "yirilin/base-file-generator",
+    "description": "Build configs,controllers,models,repositoties from existing schema.",
+    "type": "library",
+    "version": "1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yirilin",
+            "email": "yirilin@163.cn",
+			"homepage": "https://github.com/yirilin",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+		"php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yirilin\\": "src/"
+        }
+    }
+}
